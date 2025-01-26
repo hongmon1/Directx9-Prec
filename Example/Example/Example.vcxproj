@@ -19,11 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\d3dcreate.cpp" />
     <ClCompile Include="src\d3dInit.cpp" />
+    <ClCompile Include="src\d3dmain.cpp" />
     <ClCompile Include="src\d3dUtility.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\d3dUtility.h" />
+    <ClInclude Include="src\d3ddeclare.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
