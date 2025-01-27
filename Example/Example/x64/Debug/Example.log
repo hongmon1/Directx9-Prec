@@ -1,4 +1,8 @@
-﻿  d3dInit.cpp
+﻿  d3dcolortriangle.cpp
   d3dcreate.cpp
+  d3dInit.cpp
+  d3dmain.cpp
+  d3dUtility.cpp
+D:\Direct3DPrec\Example\Example\src\d3dUtility.cpp(166,15): warning C4244: 'return': 'WPARAM'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   코드를 생성하고 있습니다...
   Example.vcxproj -> D:\Direct3DPrec\Example\x64\Debug\Example.exe

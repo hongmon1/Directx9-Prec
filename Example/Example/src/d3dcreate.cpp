@@ -16,9 +16,6 @@
 #include "d3dUtility.h"
 #include "d3ddeclare.h"
 
-const int Width = 640;
-const int Height = 480;
-
 // Store 5 objects.
 ID3DXMesh* Objects[5] = { 0, 0, 0, 0, 0 };
 

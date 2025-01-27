@@ -38,15 +38,15 @@ int WINAPI WinMain(HINSTANCE hinstance,
 		return 0;
 	}
 	
-	if (!d3dCreate::Setup())
+	if (!d3dColorTriangle::Setup())
 	{
 		::MessageBox(0, "Setup() - FAILED", 0, 0);
 		return 0;
 	}
 
-	d3d::EnterMsgLoop(d3dCreate::Display);
+	d3d::EnterMsgLoop(d3dColorTriangle::Display);
 
-	d3dCreate::Cleanup();
+	d3dColorTriangle::Cleanup();
 
 	Device->Release();
 

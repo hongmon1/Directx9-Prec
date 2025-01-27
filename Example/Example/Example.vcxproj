@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\d3dcolortriangle.cpp" />
     <ClCompile Include="src\d3dcreate.cpp" />
     <ClCompile Include="src\d3dInit.cpp" />
     <ClCompile Include="src\d3dmain.cpp" />
