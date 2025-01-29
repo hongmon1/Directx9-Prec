@@ -30,6 +30,9 @@
     <ClCompile Include="src\d3dcolortriangle.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="src\d3dstencilmirror.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\d3dUtility.h">

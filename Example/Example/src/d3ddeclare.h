@@ -34,3 +34,14 @@ public:
 	static void Cleanup();
 	static bool Display(float timeDelta);
 };
+
+class d3dStencilMirror
+{
+public:
+	static void RenderScene();
+	static void RenderMirror();
+
+	static bool Setup();
+	static void Cleanup();
+	static bool Display(float timeDelta);
+};

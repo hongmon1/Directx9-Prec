@@ -23,6 +23,7 @@
     <ClCompile Include="src\d3dcreate.cpp" />
     <ClCompile Include="src\d3dInit.cpp" />
     <ClCompile Include="src\d3dmain.cpp" />
+    <ClCompile Include="src\d3dstencilmirror.cpp" />
     <ClCompile Include="src\d3dUtility.cpp" />
   </ItemGroup>
   <ItemGroup>

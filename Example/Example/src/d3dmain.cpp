@@ -38,15 +38,15 @@ int WINAPI WinMain(HINSTANCE hinstance,
 		return 0;
 	}
 	
-	if (!d3dColorTriangle::Setup())
+	if (!d3dStencilMirror::Setup())
 	{
 		::MessageBox(0, "Setup() - FAILED", 0, 0);
 		return 0;
 	}
 
-	d3d::EnterMsgLoop(d3dColorTriangle::Display);
+	d3d::EnterMsgLoop(d3dStencilMirror::Display);
 
-	d3dColorTriangle::Cleanup();
+	d3dStencilMirror::Cleanup();
 
 	Device->Release();
 
