@@ -33,12 +33,18 @@
     <ClCompile Include="src\d3dstencilmirror.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="src\Terrain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\d3dUtility.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="src\d3ddeclare.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Terrain.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

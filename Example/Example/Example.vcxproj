@@ -25,10 +25,12 @@
     <ClCompile Include="src\d3dmain.cpp" />
     <ClCompile Include="src\d3dstencilmirror.cpp" />
     <ClCompile Include="src\d3dUtility.cpp" />
+    <ClCompile Include="src\Terrain.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\d3dUtility.h" />
     <ClInclude Include="src\d3ddeclare.h" />
+    <ClInclude Include="src\Terrain.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

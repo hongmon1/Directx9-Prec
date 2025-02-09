@@ -45,3 +45,12 @@ public:
 	static void Cleanup();
 	static bool Display(float timeDelta);
 };
+
+class d3dCreateMeshFVF
+{
+
+public:
+	static bool Setup();
+	static void Cleanup();
+	static bool Display(float timeDelta);
+};
